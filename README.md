@@ -1,5 +1,71 @@
-# SE_3P_sistema-experto-ventas-robotica
-Proyecto de la materia Sistemas Expertos.
+# 🤖 Sistema Experto de Ventas de Robótica
 
-Objetivo:
-Desarrollar un sistema experto multiagente para venta de componentes electrónicos y robótica utilizando Gemini API.
+Proyecto académico desarrollado para la materia de Sistemas Expertos.
+
+## 📌 Descripción
+
+Este proyecto busca implementar un sistema experto orientado a la venta y recomendación de soluciones robóticas. El sistema utilizará inteligencia artificial mediante la API de Gemini para analizar las necesidades de un cliente y proporcionar recomendaciones adecuadas.
+
+Actualmente se encuentra en fase de integración y pruebas de conectividad con Gemini.
+
+---
+
+## 🚀 Funcionalidades actuales
+
+✅ Entorno virtual configurado
+
+✅ Integración con la API de Gemini
+
+✅ Gestión segura de credenciales mediante archivo `.env`
+
+✅ Pruebas de conexión exitosas con modelos Gemini
+
+✅ Control de versiones mediante Git y GitHub
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* Python 3
+* Gemini API
+* Google GenAI SDK
+* Git
+* GitHub
+* Visual Studio Code
+* python-dotenv
+
+---
+
+## 🔐 Seguridad
+
+Las claves de acceso se almacenan en un archivo `.env` que no se incluye en el repositorio gracias a la configuración del archivo `.gitignore`.
+
+---
+
+## 🧪 Estado del proyecto
+
+Actualmente se ha verificado:
+
+* Conexión correcta con Gemini.
+* Lectura de variables de entorno.
+* Funcionamiento de la API mediante solicitudes de prueba.
+* Preparación del entorno para la integración del sistema experto.
+
+---
+
+## 🎯 Próximos pasos
+
+* Diseñar la base de conocimientos.
+* Definir reglas de recomendación.
+* Integrar Gemini en el flujo del sistema experto.
+* Implementar recomendaciones de productos robóticos.
+* Crear interfaz de interacción con el usuario.
+* Generar reportes y explicaciones de las recomendaciones.
+
+---
+
+## 👨‍💻 Autor
+
+Bruno y equipo de desarrollo.
+
+Proyecto académico - Sistemas Expertos.
