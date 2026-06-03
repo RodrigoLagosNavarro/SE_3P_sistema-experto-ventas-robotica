@@ -20,8 +20,6 @@ Actualmente se encuentra en fase de integración y pruebas de conectividad con G
 
 ✅ Pruebas de conexión exitosas con modelos Gemini
 
-✅ Control de versiones mediante Git y GitHub
-
 ---
 
 ## 🛠️ Tecnologías utilizadas
