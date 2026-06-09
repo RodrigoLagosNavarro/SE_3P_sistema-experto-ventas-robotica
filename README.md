@@ -6,7 +6,6 @@ Proyecto académico desarrollado para la materia de Sistemas Expertos.
 
 Este proyecto busca implementar un sistema experto orientado a la venta y recomendación de soluciones robóticas. El sistema utilizará inteligencia artificial mediante la API de Gemini para analizar las necesidades de un cliente y proporcionar recomendaciones adecuadas.
 
-Actualmente se encuentra en fase de integración y pruebas de conectividad con Gemini.
 
 ---
 
