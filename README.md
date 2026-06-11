@@ -37,16 +37,6 @@ Este proyecto busca implementar un sistema experto orientado a la venta y recome
 
 Las claves de acceso se almacenan en un archivo `.env` que no se incluye en el repositorio gracias a la configuración del archivo `.gitignore`.
 
----
-
-## 🧪 Estado del proyecto
-
-Actualmente se ha verificado:
-
-* Conexión correcta con Gemini.
-* Lectura de variables de entorno.
-* Funcionamiento de la API mediante solicitudes de prueba.
-* Preparación del entorno para la integración del sistema experto.
 
 ---
 
