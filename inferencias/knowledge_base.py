@@ -360,4 +360,75 @@ reglas = [
         "explicacion": "Ideal para detectar movimiento en sistemas automáticos."
     }
 
+,
+    {
+        "id": "R14",
+        "nivel": "intermedio",
+        "presupuesto": "medio",
+        "proyecto": "iot",
+        "categoria": "sensor",
+        "producto": "DHT22",
+        "explicacion": "Ofrece mayor precisión para monitoreo ambiental en proyectos IoT."
+    },
+
+    {
+        "id": "R15",
+        "nivel": "intermedio",
+        "presupuesto": "medio",
+        "proyecto": "automatizacion",
+        "categoria": "controlador",
+        "producto": "Arduino Mega",
+        "explicacion": "Cuenta con múltiples entradas y salidas para automatización."
+    },
+
+    {
+        "id": "R16",
+        "nivel": "intermedio",
+        "presupuesto": "medio",
+        "proyecto": "automatizacion",
+        "categoria": "actuador",
+        "producto": "Motor Paso a Paso 28BYJ-48",
+        "explicacion": "Permite movimientos precisos en sistemas automatizados."
+    },
+
+    {
+        "id": "R17",
+        "nivel": "intermedio",
+        "presupuesto": "medio",
+        "proyecto": "robotica_movil",
+        "categoria": "controlador",
+        "producto": "Arduino Mega",
+        "explicacion": "Permite controlar múltiples sensores y actuadores en robots."
+    },
+
+    {
+        "id": "R18",
+        "nivel": "intermedio",
+        "presupuesto": "medio",
+        "proyecto": "robotica_movil",
+        "categoria": "sensor",
+        "producto": "HC-SR04",
+        "explicacion": "Facilita la detección de obstáculos en robots móviles."
+    },
+
+    {
+        "id": "R19",
+        "nivel": "intermedio",
+        "presupuesto": "medio",
+        "proyecto": "robotica_movil",
+        "categoria": "actuador",
+        "producto": "Driver L298N",
+        "explicacion": "Permite controlar motores DC en plataformas móviles."
+    },
+
+    {
+        "id": "R20",
+        "nivel": "avanzado",
+        "presupuesto": "alto",
+        "proyecto": "vision_artificial",
+        "categoria": "controlador",
+        "producto": "Raspberry Pi 5",
+        "explicacion": "Ideal para procesamiento avanzado de imágenes."
+    }
 ]
+
