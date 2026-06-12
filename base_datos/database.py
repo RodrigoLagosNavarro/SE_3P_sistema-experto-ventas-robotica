@@ -51,3 +51,29 @@ def guardar_consulta(datos_cliente, resultado):
 
     conexion.commit()
     conexion.close()
+
+
+def obtener_consultas():
+
+    conexion = sqlite3.connect("base_datos/ventas.db")
+
+    cursor = conexion.cursor()
+
+    cursor.execute("""
+    SELECT
+        id,
+        nivel,
+        presupuesto,
+        proyecto,
+        categoria,
+        producto,
+        regla
+    FROM consultas
+    ORDER BY id DESC
+    """)
+
+    registros = cursor.fetchall()
+
+    conexion.close()
+
+    return registros

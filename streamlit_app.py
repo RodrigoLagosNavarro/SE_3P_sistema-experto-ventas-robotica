@@ -2,7 +2,11 @@ import streamlit as st
 
 from agentes.sales_agent import procesar_solicitud
 from agentes.supervisor_agent import generar_reporte
-from base_datos.database import crear_base_datos, guardar_consulta
+from base_datos.database import (
+    crear_base_datos,
+    guardar_consulta,
+    obtener_consultas
+)
 
 
 crear_base_datos()
@@ -74,3 +78,19 @@ if st.button("Generar recomendación"):
 
     st.subheader("Explicación")
     st.write(resultado["explicacion"])
+
+    st.divider()
+
+st.subheader("Historial de Consultas")
+
+consultas = obtener_consultas()
+
+if consultas:
+
+    st.table(
+        consultas
+    )
+
+else:
+
+    st.info("Aún no existen consultas registradas.")
